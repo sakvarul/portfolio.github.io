@@ -39,6 +39,8 @@ img {
 }
 
 .header-button {
+	display: inline-block;
+	text-decoration: none;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border: none;
 	border-radius: 25px;
@@ -51,6 +53,13 @@ img {
 	font-weight: 700;
 	cursor: pointer;
 	outline: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.header-button:hover {
+	box-shadow: none;
 }
 
 .button-box {
@@ -159,14 +168,24 @@ img {
 }
 
 .footer-button {
+	display: inline-block;
 	background-color: transparent;
 	border-radius: 24px;
 	border: 1px solid #ffffff;
 	padding: 12px 40px;
 	font-size: 18px;
 	color: #deedfe;
+	text-decoration: none;
 	cursor: pointer;
 	outline: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.footer-button:hover {
+	background-color: #ffffff;
+	color: #3a7dfd;
 }
 
 @media (max-width: 1199px) {
